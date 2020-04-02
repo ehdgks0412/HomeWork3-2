@@ -1,0 +1,31 @@
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <style type="text/css">
+        pre{ background-color: lightskyblue;}
+
+    </style>
+    <title> &lt;canvas&gt; 사용예</title>
+</head>
+<body>
+    <p style="font-size:35px; font-weight: bolder";> &lt;canvas&gt; 사용예 (과제 #03-02) </p>
+    <canvas id="myCanvas" width="200" height="100" style="border:0px solid #d3d3d3;">
+        Your browser does not support the HTML5 canvas tag.
+    </canvas>
+
+    <script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.moveTo(0,0);
+ctx.lineTo(200,100);
+ctx.stroke();
+ctx.moveTo(0,100);
+ctx.lineTo(200,0);
+ctx.stroke();
+    </script>
+    <pre>웹프로그래밍2 과목. 김동한의 예제 공간입니다.                                 
+
+                                        </pre>              
+                                                
+</body>
+</html>
